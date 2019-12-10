@@ -7,7 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { CoursesComponent } from './courses/courses.component';
+import { GroupTravelComponent } from './group-travel/group-travel.component';
+import { GroupTrainingComponent } from './group-training/group-training.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
     FooterComponent,
     ContactComponent,
     HomeComponent,
-    NoPageFoundComponent
+    CoursesComponent,
+    GroupTravelComponent,
+    GroupTrainingComponent
   ],
   imports: [
     BrowserModule,

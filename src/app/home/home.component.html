@@ -1,8 +1,11 @@
 <!-- main -->
-
-  <section id="main ">
+<div class="container" id="margin-top-first-line">
+  <div class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><span class="trail-begin">
+          <a routerLink="/home" title="- för din personliga utveckling" rel="home" class="trail-begin">Hem</a>
+      </span> <span class="sep"> » </span>
+  
     <div class="gradient">
-      <div class="container">
+    
         <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -44,10 +47,56 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      
     </div>
-  </section>
+  </div>
+  
 
 
 
+
+<br>
+
+
+
+
+<div class="card-deck">
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%;cursor:zoom-in"
+    onclick="document.getElementById('modal01').style.display='block'"   alt="Card image cap">
+
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom" style="margin-top: 100px;">
+      <img src="../../assets/1.jpg" style="width:100%">
+      <span class="close">&times;</span>
+      <div id="caption" >picture</div>
+    </div>
+  </div>
+    <div class="card-body">
+          <h5 class="card-title text-center" routerLink="/massage">Massage & Avslappning</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../../assets/1.jpg" style="width:100%;cursor:zoom-in"
+    onclick="document.getElementById('modal02').style.display='block'"   alt="Card image cap">
+
+  <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom" style="margin-top: 100px;">
+      <img src="../../assets/1.jpg" style="width:100%">
+      <span class="close">&times;</span>
+      <div id="caption" >picture</div>
+    </div>
+  </div>
+
+    <div class="card-body"routerLink="/alternativ-medicin">
+      <h5 class="card-title text-center" >Alternativ Medicin</h5>                
+    </div>
+  </div>
+  
+  
+</div>
+
+</div>
  
